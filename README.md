@@ -1,4 +1,4 @@
-# 👽 Rick and Morty Android App
+# Rick and Morty Android App
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material3-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
@@ -7,7 +7,7 @@
 
 A native Android app for browsing characters from the [Rick and Morty API](https://rickandmortyapi.com/), creating your own custom characters, and storing them locally with Room. Built with Kotlin and Jetpack Compose following an MVVM architecture.
 
-## ✨ Features
+## Features
 
 - **Browse** — paginated list of official Rick and Morty characters fetched from the public API
 - **Create** — build your own character and save it to a local Room database
@@ -15,7 +15,7 @@ A native Android app for browsing characters from the [Rick and Morty API](https
 - **Surprise me** — fetch a random character on demand
 - Loading states, error handling, and image caching throughout
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -27,7 +27,7 @@ A native Android app for browsing characters from the [Rick and Morty API](https
 | Images | Coil |
 | Architecture | MVVM (Screen → ViewModel → Repository) |
 
-## 🏗 Architecture
+## Architecture
 
 ```
 screens/<feature>/        UI (Composables) + ViewModel per feature
@@ -37,7 +37,7 @@ data/dataclasses/         API/DB models
 navigation/               NavHost + bottom navigation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Android Studio (Koala or newer), JDK 17, Android SDK 34.
 
@@ -49,13 +49,13 @@ cd rick-and-morty-android
 
 Open the project in Android Studio and run on an emulator or device (min SDK 26).
 
-## 🧪 Tests
+## Tests
 
 ```bash
 ./gradlew test          # unit tests
 ./gradlew connectedCheck # instrumented tests (requires device/emulator)
 ```
 
-## 🎓 Background
+## Background
 
 Originally built as the exam project for **Android Programming (7.5 ECTS)** — Kristiania University College, graded **A**. 
