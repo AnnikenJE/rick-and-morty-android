@@ -37,6 +37,25 @@ data/dataclasses/         API/DB models
 navigation/               NavHost + bottom navigation
 ```
 
+## Getting Started
+
+**Requirements:** Android Studio (Koala or newer), JDK 17, Android SDK 34.
+
+```bash
+git clone git@github.com:AnnikenJE/rick-and-morty-android.git
+cd rick-and-morty-android
+./gradlew assembleDebug
+```
+
+Open the project in Android Studio and run on an emulator or device (min SDK 26).
+
+## Tests
+
+```bash
+./gradlew test          # unit tests
+./gradlew connectedCheck # instrumented tests (requires device/emulator)
+```
+
 ## Background
 
-Originally built as the exam project for **Android Programming (7.5 ECTS)** — Kristiania University College, graded **A**. App code written without AI assistance, per exam requirements.
+Originally built as the exam project for **Android Programming (7.5 ECTS)** — Kristiania University College, graded **A**. 
