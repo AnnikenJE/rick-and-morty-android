@@ -60,7 +60,5 @@ Open the project in Android Studio and run on an emulator or device (min SDK 26)
 
 Originally built as the exam project for **Android Programming (7.5 ECTS)** — Kristiania University College, graded **A**. 
 
-
-## No AI-generated code
 All code is handwritten. 
 AI is only used to help write the README and commit messages.
