@@ -4,10 +4,10 @@ A native Android app for browsing characters from the [Rick and Morty API](https
 
 ## Features
 
-- **Browse** — paginated list of official Rick and Morty characters fetched from the public API
-- **Create** — build your own character and save it to a local Room database
-- **Collection** — view and manage the characters you've created
-- **Surprise me** — fetch a random character on demand
+- **Browse:** paginated list of official Rick and Morty characters fetched from the public API
+- **Create:** build your own character and save it to a local Room database
+- **Collection:** view and manage the characters you've created
+- **Surprise me:** fetch a random character on demand
 - Loading states, error handling, and image caching throughout
 
 ## Tech Stack
@@ -53,7 +53,7 @@ Open the project in Android Studio and run on an emulator or device (min SDK 26)
 
 ## Background
 
-Originally built as the exam project for **Android Programming (7.5 ECTS)** — Kristiania University College, graded **A**. 
+Originally built as the exam project for **Android Programming (7.5 ECTS)**, Kristiania University College, graded **A**. 
 
 All code is handwritten. 
 AI is only used to help write the README and commit messages.
