@@ -2,6 +2,13 @@
 
 A native Android app for browsing characters from the [Rick and Morty API](https://rickandmortyapi.com/), creating your own custom characters, and storing them locally with Room. Built with Kotlin and Jetpack Compose following an MVVM architecture.
 
+## Background
+
+Originally built as the exam project for **Android Programming (7.5 ECTS)**, Kristiania University College, graded **A**. 
+
+All code is handwritten. 
+AI is only used to help write the README and commit messages.
+
 ## Features
 
 - **Browse:** paginated list of official Rick and Morty characters fetched from the public API
@@ -51,9 +58,4 @@ Open the project in Android Studio and run on an emulator or device (min SDK 26)
 ./gradlew connectedCheck # instrumented tests (requires device/emulator)
 ```
 
-## Background
 
-Originally built as the exam project for **Android Programming (7.5 ECTS)**, Kristiania University College, graded **A**. 
-
-All code is handwritten. 
-AI is only used to help write the README and commit messages.
